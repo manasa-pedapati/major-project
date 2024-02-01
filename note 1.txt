@@ -1,0 +1,23 @@
+numpy==1.19.2    0r 1.19.3   or 1.23.3
+
+
+Error: ImportError: cannot import name 'img_to_array' from 'keras.preprocessing.image' (C:\Users\sanjay\Anaconda3\lib\site-packages\keras\preprocessing\image.py)
+
+sol: 
+Insted of,
+
+from keras.preprocessing.image import img_to_array
+
+Try this,
+
+from tensorflow.keras.utils import img_to_array
+
+
+
+Error:The specified device is not open or is not recognized by MCI
+Solu: 
+pip uninstall playsound
+pip install playsound==1.2.2
+
+otherwise install visual studio c++
+https://aka.ms/vs/17/release/vc_redist.x64.exe

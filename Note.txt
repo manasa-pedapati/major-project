@@ -1,0 +1,7 @@
+pip install tensorflow
+pip install tensorflow-gpu
+pip install DataFrame
+
+
+
+Run File: python real_time_video.py
